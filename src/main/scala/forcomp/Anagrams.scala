@@ -41,7 +41,7 @@ object Anagrams {
   def wordOccurrences(w: Word): Occurrences = w.toLowerCase.groupBy(identity).mapValues(_.length).toList.sortBy(_._1)
 
   /** Converts a sentence into its character occurrence list. */
-  def sentenceOccurrences(s: Sentence): Occurrences = s.flatMap(wordOccurrences)
+  def sentenceOccurrences(s: Sentence): Occurrences = wordOccurrences(s.mkString)
 
   /** The `dictionaryByOccurrences` is a `Map` from different occurrences to a sequence of all
     * the words that have that occurrence count.
@@ -159,9 +159,9 @@ object Anagrams {
         case Nil => List(Nil)
         case occ =>
           for {
-            combinations <- combinations(occ)
-            word <- dictionaryByOccurrences.getOrElse(combinations, Nil)
-            others <- iter(subtract(occ, combinations))
+            combin <- combinations(occ).map(_.sortBy(_._1))
+            word <- dictionaryByOccurrences.getOrElse(combin, Nil)
+            others <- iter(subtract(occ, combin))
           } yield word :: others
       }
     }

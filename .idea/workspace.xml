@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e774c3c-3d18-4da3-b227-402d4ddaad78" name="Default Changelist" comment="" />
+    <list default="true" id="9e774c3c-3d18-4da3-b227-402d4ddaad78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$forcomp$Anagrams$$iter$1$1$$anonfun$apply$4$$anonfun$apply$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$forcomp$Anagrams$$iter$1$1$$anonfun$apply$4.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -38,12 +43,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="1532" />
+          <entry key="scala" value="1575" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="1532" />
+          <entry key="Scala" value="1575" />
         </counts>
       </usages-collector>
     </session>
@@ -53,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
+            <state relative-caret-position="155">
+              <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
               <folding>
                 <element signature="e#17#68#0" expanded="true" />
               </folding>
@@ -74,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/forcomp/AnagramsSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-598">
+            <state relative-caret-position="-175">
               <caret line="32" column="23" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="23" />
             </state>
           </provider>
@@ -86,9 +91,13 @@
     <findStrings>
       <find>sentenceOccurrences</find>
       <find>Zulu</find>
+      <find>z</find>
       <find>println</find>
       <find>wordAnagrams</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,6 +112,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -194,7 +204,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547128430002" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547130178512" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.sbt" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
@@ -355,24 +365,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnagramsSuite - 2019.01.10 at 15h 06m 59s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsSuite - 2019.01.10 at 15h 07m 23s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsSuite - 2019.01.10 at 15h 52m 02s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsSuite - 2019.01.10 at 16h 08m 04s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsSuite - 2019.01.10 at 17h 39m 20s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsSuite - 2019.01.10 at 17h 41m 19s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnagramsSuite - 2019.01.10 at 17h 41m 41s.xml">
       <configuration name="AnagramsSuite" configurationId="JUnit" />
     </history-entry>
@@ -383,6 +375,24 @@
       <configuration name="AnagramsSuite" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AnagramsSuite - 2019.01.10 at 17h 48m 31s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2019.01.10 at 17h 51m 12s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2019.01.10 at 18h 14m 23s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2019.01.10 at 18h 15m 32s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2019.01.10 at 18h 15m 51s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2019.01.10 at 18h 17m 02s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2019.01.10 at 18h 18m 50s.xml">
       <configuration name="AnagramsSuite" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -398,7 +408,7 @@
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32961586" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32961586" />
@@ -449,15 +459,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/forcomp/AnagramsSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
+        <state relative-caret-position="-175">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
+        <state relative-caret-position="155">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
           <folding>
             <element signature="e#17#68#0" expanded="true" />
           </folding>
